@@ -1,15 +1,23 @@
 body {
+    width: auto;
+    background-color: #DDCC66;
     margin: 0;
     padding: 0;
+    color: #331111;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+main {
+    color: #1F2937;
 }
 
 header {
     background-color: #1F2937;
     width: 100%;
     height: auto;
-    color: #e5e7eb;
-    font-family: "Roboto";
-    font-size: 18px;
+    color: #f9faf8;
+
 }
 
 ul {
@@ -73,4 +81,80 @@ button {
     margin-left: -2px;
     font-weight: bold;
     letter-spacing: 0.5px;
+}
+
+.info-header {
+    padding: 32px;
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+}
+
+.simg {
+        margin-left: 20px;
+        width: 150px;
+        height: 150px;
+        color: #f9faf8;
+        background-color: white;
+        border: solid 5px #995533; 
+        border-radius: 13px;    
+}
+
+#items {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+
+  
+.info {
+    max-width: 200px;
+  }
+
+.text {    
+    text-align: center;
+    margin-top: 1rem;    
+}
+
+main {
+    background-image: url(https://wallpapercave.com/wp/wp10610070.jpg);
+    background-size: cover;
+    background-position: 0%;
+    height: 400px;
+}
+
+#quote{
+    color: white;
+    letter-spacing: 0.1em;
+    margin: 11em 0;
+    max-width: 1440px;
+    padding: 30px;
+    font-family:'Fira Mono', monospace;
+    text-shadow: 0 0 1em black, 0 0 2em black;
+
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Fira Mono', monospace;
+    margin: 0 auto;
+    font-weight: italic;
+        font-size: 3em;
+    text-align: center;
+    font-style: italic;
+}
+
+.source {
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(46, 11, 3);
 }
