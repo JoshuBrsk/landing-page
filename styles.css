@@ -13,10 +13,10 @@ main {
 }
 
 header {
-    background-color: #1F2937;
+    background-color: #331111;
     width: 100%;
     height: auto;
-    color: #f9faf8;
+    color: #DDCC66;
 
 }
 
@@ -40,7 +40,7 @@ ul {
 }
 
 .left {
-    color: #f9faf8;
+    color: #DDCC66;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -66,7 +66,7 @@ ul {
 
 h1 {
     font-size: 48px ;
-    color: #f9faf8;
+    color: #DDCC66;
 }
 
 button {
@@ -74,8 +74,8 @@ button {
     width: 7em;
     height: 35px;
     font-family: "Roboto";
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: #995533;
+    color: #DDCC66;
     font-size: 17px;
     border:  none;
     margin-left: -2px;
@@ -157,4 +157,41 @@ main {
     font-weight: bolder;
     font-size: 50px;
     color: rgb(46, 11, 3);
+}
+
+#sign-button {
+    border-radius: 15px;
+    height: 11rem;
+    margin: 2rem auto;
+    width: 1220px;
+    align-items: left;
+    background-color: #995533;
+    display: flex;
+}
+
+.sign-text1 {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.sign-text {
+    font-weight: italic;
+    font-size: 25px;
+}
+
+.button2 {
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem 0px 0px 200px;
+    display: flex;
+    border-radius: 15px;
+    border: #DDCC66 solid 5px;
+    height: 60px;
+    width: 170px;
+}
+
+#just {
+    margin: 3rem 0px 0px 3rem;
+    display: flex;
+    flex-direction: column;
 }
