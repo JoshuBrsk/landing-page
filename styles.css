@@ -162,7 +162,7 @@ main {
 #sign-button {
     border-radius: 15px;
     height: 11rem;
-    margin: 2rem auto;
+    margin: 4rem auto;
     width: 1220px;
     align-items: left;
     background-color: #995533;
@@ -182,7 +182,7 @@ main {
 .button2 {
     justify-content: center;
     align-items: center;
-    margin: 3.5rem 0px 0px 200px;
+    margin: 62px 0px 0px 200px;
     display: flex;
     border-radius: 15px;
     border: #DDCC66 solid 5px;
@@ -191,7 +191,7 @@ main {
 }
 
 #just {
-    margin: 3rem 0px 0px 3rem;
+    margin: 48px 0px 0px 3rem;
     display: flex;
     flex-direction: column;
 }
